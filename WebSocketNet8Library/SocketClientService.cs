@@ -40,9 +40,9 @@ namespace WebSocketNet8Library
 
         }
 
-        public async Task connect() {
+        public async Task connect(string clientName) {
 
-            ws.Options.SetRequestHeader("name", "Client 1");
+            ws.Options.SetRequestHeader("name", clientName);
 
             cts.CancelAfter(TimeSpan.FromSeconds(120));
 

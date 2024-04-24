@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketNet8.Client1", "We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketNet8Library", "WebSocketNet8Library\WebSocketNet8Library.csproj", "{2A5EB58D-86FF-4DBB-A04E-5D4F3CDC4A38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketNet8.Client2", "WebSocketNet8.Client2\WebSocketNet8.Client2.csproj", "{0FE755B7-285C-4CB6-A223-369454AC4664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketNet8.Client3", "WebSocketNet8.Client3\WebSocketNet8.Client3.csproj", "{013C242E-833F-45ED-A582-FB59E3F548FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{2A5EB58D-86FF-4DBB-A04E-5D4F3CDC4A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A5EB58D-86FF-4DBB-A04E-5D4F3CDC4A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A5EB58D-86FF-4DBB-A04E-5D4F3CDC4A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE755B7-285C-4CB6-A223-369454AC4664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE755B7-285C-4CB6-A223-369454AC4664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE755B7-285C-4CB6-A223-369454AC4664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE755B7-285C-4CB6-A223-369454AC4664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013C242E-833F-45ED-A582-FB59E3F548FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013C242E-833F-45ED-A582-FB59E3F548FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013C242E-833F-45ED-A582-FB59E3F548FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013C242E-833F-45ED-A582-FB59E3F548FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

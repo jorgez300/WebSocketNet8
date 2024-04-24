@@ -7,7 +7,7 @@ Console.ReadLine();
 
 SocketClientService ws = new SocketClientService();
 
-await ws.connect("Client 1");
+await ws.connect("Client 3");
 
 
 _ = Task.Run(async () =>
@@ -35,7 +35,8 @@ _ = Task.Run(async () =>
 }, ws.cts.Token);
 
 
-while (ws.isConnected()) { 
+while (ws.isConnected())
+{
 
 }
 
